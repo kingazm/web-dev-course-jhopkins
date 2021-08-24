@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+  font-family: Times New Roman, serif;
+  position: relative;
+  font-size: 13px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 175%;
+}
+
+section {
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #DADADA;
+}
+
+.coffee{
+    left: 33%;
+}
+
+.desserts {
+    left: 66%;
+}
+
+p {
+    text-align: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: -7px;
+}
+
+#pasta-titl, #coffee-titl, #desserts-titl {
+    position: relative;
+    border: 1px solid black;
+    margin-left: 75%;
+    margin-top: -1px;
+    right: -1px;
+    width: 25%;
+    padding: 8px;
+    font-size: 125%;
+    /*offsets????*/
+}
+
+#pasta-titl {
+    background-color: #2EA92C ;
+}
+
+#coffee-titl {
+    background-color: white ;
+}
+
+#desserts-titl {
+    background-color: #D32929 ;
+}
+
+@media (min-width: 768px) and  (max-width: 991px) {
+    .desserts {
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        left: 0;
+        top: 160px;
+        width: 92% ;
+
+    }
+    .coffee{
+        left: 47.7%;
+        margin-left: 10px;
+    }
+
+
+    .coffee, .pasta {
+        width: 45.5%;
+    }
+
+
+
+}
+@media (max-width: 767px) {
+    .pasta, .coffee, .desserts {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        left: 0;
+
+    }
+    section {
+        width: 90%;
+    }
+}
