@@ -55,14 +55,14 @@ p {
     margin: 0;
   }
   .desserts{
-    width: 96.9%; 
+    width: 97%; 
     margin-top: 6px;
   }
   .coffee{
-    margin-left: 6px;
+    margin-left: 1%;
   }
   .container{
-    margin: 10%;
+    margin: 5%;
   }
 }
 @media (max-width: 767px) {
