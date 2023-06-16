@@ -1,5 +1,5 @@
 (function (window){ //just like SpeakHello.js
-    var speakWord = "Goodbye";
+    var speakWord = "Good Bye";
     var byeSpeaker = {};
 
     byeSpeaker.speak = function(name){

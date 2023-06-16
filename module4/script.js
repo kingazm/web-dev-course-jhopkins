@@ -10,6 +10,7 @@ Hello Paula
 Hello Laura
 Good Bye Jim
 */
+
 (function () {
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
